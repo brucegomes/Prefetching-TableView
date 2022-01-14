@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Beer Table Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BeerTableController" customModule="TwoBarrelsPunkBrewery" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhH-gc-tXU" userLabel="randomBtn">
+                                <rect key="frame" x="276" y="103.5" width="134" height="24"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Random Beer">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                    <imageReference key="image" image="arrow.up.arrow.down.circle.fill" catalog="system" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="onRandomBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JYP-ap-l8X"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="gFw-Du-WaO">
+                                <rect key="frame" x="196" y="439" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="color" systemColor="labelColor"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Available Punk Beers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppt-4W-T5z" userLabel="beerListTitle">
+                                <rect key="frame" x="72" y="49" width="270" height="32.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zCh-ig-xHU">
+                                <rect key="frame" x="0.0" y="131.5" width="414" height="730.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ppt-4W-T5z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="3wY-uQ-TkW"/>
+                            <constraint firstItem="zCh-ig-xHU" firstAttribute="top" secondItem="JhH-gc-tXU" secondAttribute="bottom" constant="4" id="Dst-DI-Dpg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zCh-ig-xHU" secondAttribute="bottom" id="Vpo-xh-WGt"/>
+                            <constraint firstItem="zCh-ig-xHU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="l6D-qf-ne1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JhH-gc-tXU" secondAttribute="trailing" constant="4" id="mHV-Xh-w8w"/>
+                            <constraint firstItem="zCh-ig-xHU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="oVw-NG-7I3"/>
+                            <constraint firstItem="ppt-4W-T5z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="r4c-2P-6C9"/>
+                            <constraint firstItem="zCh-ig-xHU" firstAttribute="top" secondItem="ppt-4W-T5z" secondAttribute="bottom" constant="50" id="r6p-Zt-drP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ppt-4W-T5z" secondAttribute="trailing" constant="72" id="zB2-Rd-ffW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="beerListTitle" destination="ppt-4W-T5z" id="HLs-cN-ETa"/>
+                        <outlet property="beerTable" destination="zCh-ig-xHU" id="YRU-9A-uwY"/>
+                        <outlet property="randomBtn" destination="JhH-gc-tXU" id="ekR-sm-Kxq"/>
+                        <outlet property="tableSpinner" destination="gFw-Du-WaO" id="b3P-J0-BCI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="123.88392857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.up.arrow.down.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

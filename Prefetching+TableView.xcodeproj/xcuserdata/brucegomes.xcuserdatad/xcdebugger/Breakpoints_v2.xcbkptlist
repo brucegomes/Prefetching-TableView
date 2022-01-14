@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4CC86313-DED2-43AC-9FB4-0E4D51F3A3F2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCAC6C1D-03B7-43C8-AED4-E822677F1381"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TwoBarrelsPunkBrewery/PunkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchBeers(page:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FCAC6C1D-03B7-43C8-AED4-E822677F1381 - 9f4f95cc0bc4eaa4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TwoBarrelsPunkBrewery.PunkClient.fetchBeers(page: Swift.Int, completion: (TwoBarrelsPunkBrewery.Result&lt;TwoBarrelsPunkBrewery.Beer, TwoBarrelsPunkBrewery.DataResponseError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TwoBarrelsPunkBrewery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brucegomes/Documents/TwoBarrelsPunkBrewery/TwoBarrelsPunkBrewery/PunkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1019">
+               </Location>
+               <Location
+                  uuid = "FCAC6C1D-03B7-43C8-AED4-E822677F1381 - 43fe420c034ccf30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in TwoBarrelsPunkBrewery.PunkClient.fetchBeers(page: Swift.Int, completion: (TwoBarrelsPunkBrewery.Result&lt;TwoBarrelsPunkBrewery.Beer, TwoBarrelsPunkBrewery.DataResponseError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TwoBarrelsPunkBrewery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brucegomes/Documents/TwoBarrelsPunkBrewery/TwoBarrelsPunkBrewery/PunkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "247">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71F0EFB4-1BF8-4189-9207-A19DF80EA538"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TwoBarrelsPunkBrewery/PunkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "fetchBeers(page:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F5039AE-FA6A-4730-9C0C-9C006EFD43DB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TwoBarrelsPunkBrewery/BeersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "fetchBeers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5F5039AE-FA6A-4730-9C0C-9C006EFD43DB - 681c7e2a9eca4e61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TwoBarrelsPunkBrewery.BeersViewModel.fetchBeers() -&gt; ()"
+                  moduleName = "TwoBarrelsPunkBrewery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brucegomes/Documents/TwoBarrelsPunkBrewery/TwoBarrelsPunkBrewery/BeersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "173">
+               </Location>
+               <Location
+                  uuid = "5F5039AE-FA6A-4730-9C0C-9C006EFD43DB - 559d52cba1ba48ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TwoBarrelsPunkBrewery.Result&lt;TwoBarrelsPunkBrewery.Beer, TwoBarrelsPunkBrewery.DataResponseError&gt;) -&gt; () in TwoBarrelsPunkBrewery.BeersViewModel.fetchBeers() -&gt; ()"
+                  moduleName = "TwoBarrelsPunkBrewery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brucegomes/Documents/TwoBarrelsPunkBrewery/TwoBarrelsPunkBrewery/BeersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "267">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA66D7FE-6608-400C-BC18-CF59CB218596"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TwoBarrelsPunkBrewery/BeersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "fetchBeers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA5B9CEE-540F-43C9-A56A-F146466DA6FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TwoBarrelsPunkBrewery/BeerTableController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "tableView(_:prefetchRowsAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FA5B9CEE-540F-43C9-A56A-F146466DA6FD - caedd971c76e0831"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TwoBarrelsPunkBrewery.BeerTableController.tableView(_: __C.UITableView, prefetchRowsAt: Swift.Array&lt;Foundation.IndexPath&gt;) -&gt; ()"
+                  moduleName = "TwoBarrelsPunkBrewery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brucegomes/Documents/TwoBarrelsPunkBrewery/TwoBarrelsPunkBrewery/BeerTableController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "FA5B9CEE-540F-43C9-A56A-F146466DA6FD - 75838001ff9fe464"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #2 (Foundation.IndexPath) -&gt; Swift.Bool in implicit closure #1 (TwoBarrelsPunkBrewery.BeerTableController) -&gt; (Foundation.IndexPath) -&gt; Swift.Bool in TwoBarrelsPunkBrewery.BeerTableController.tableView(_: __C.UITableView, prefetchRowsAt: Swift.Array&lt;Foundation.IndexPath&gt;) -&gt; ()"
+                  moduleName = "TwoBarrelsPunkBrewery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brucegomes/Documents/TwoBarrelsPunkBrewery/TwoBarrelsPunkBrewery/BeerTableController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39EA8832-9B5B-472A-95A1-2728D6923CD1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TwoBarrelsPunkBrewery/BeersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "fetchBeers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CABE5606-1F0E-4322-B589-9C7D3AF2423E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TwoBarrelsPunkBrewery/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
