@@ -1,4 +1,3 @@
-//
 //The Legal Stuff
 //
 // The data in this API is taken directly from BrewDog’s DIY Dog and is therefore free to use, replicate verbatim
